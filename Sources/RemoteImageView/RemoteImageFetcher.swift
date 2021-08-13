@@ -32,6 +32,7 @@ public class RemoteImageFetcher: ObservableObject {
   @Published var imageData = Data()
   let url: URL
     
+    //Hellow new init
     public init(from url: URL) {
       self.url = url
     }
