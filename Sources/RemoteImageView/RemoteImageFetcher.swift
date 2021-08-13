@@ -55,5 +55,11 @@ public class RemoteImageFetcher: ObservableObject {
   public func getUrl() -> URL {
     return url
   }
+    
+    //testing adding stuff to local repo package then pushing
+    public func purge() {
+      imageData = Data()
+    }
+
 }
 
